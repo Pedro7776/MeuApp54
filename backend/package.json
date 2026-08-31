@@ -1,0 +1,16 @@
+{
+  "name": "ntask-api",
+  "version": "1.0.0",
+  "description": "API de Gestao de tarefas",
+  "license": "ISC",
+  "author": "pedro sobrinho",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "start":"node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}

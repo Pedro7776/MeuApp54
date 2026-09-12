@@ -10,7 +10,7 @@ const app = express();
 app.use(express.json());
 
 app.get('/', (req, res) => {
-    res.json({ status: 'Música API' }); // <- MUDOU: só cosmético, opcional
+    res.json({ status: 'Música API' }); 
 });
 
 // Registra todas as rotas de música sob o prefixo "/musicas".
